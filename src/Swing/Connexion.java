@@ -4,12 +4,12 @@ import javax.swing.*;
 import static javax.swing.GroupLayout.Alignment.BASELINE;
 import static javax.swing.GroupLayout.Alignment.LEADING;
 
-public class GroupLayout1 extends JFrame {
+public class Connexion extends JFrame {
     private JButton button1;
     private JLabel label1, label2;
     private JTextField text1, text2;
 
-    public GroupLayout1(){
+    public Connexion(){
 
         setTitle("Connexion.");
         setSize(400,100);
@@ -66,7 +66,7 @@ public class GroupLayout1 extends JFrame {
                 } catch (Exception ex){
                     ex.printStackTrace();
                 }
-                GroupLayout1 layout = new GroupLayout1();
+                Connexion layout = new Connexion();
                 layout.setVisible(true);
             }
         });
